@@ -8,7 +8,7 @@
 #include <tf/transform_broadcaster.h>
 #include <gazebo/plugins/RayPlugin.hh>
 #include "livox_ode_multiray_shape.h"
-
+#include <string>
 namespace gazebo {
 struct AviaRotateInfo {
     double time;
@@ -98,7 +98,7 @@ class LivoxPointsPlugin : public RayPlugin {
     int64_t currStartIndex = 0;
     int64_t maxPointSize = 1000;
     int64_t downSample = 1;
-
+    std::string frameName = "livox";
     double maxDist = 400.0;
     double minDist = 0.1;
 };
