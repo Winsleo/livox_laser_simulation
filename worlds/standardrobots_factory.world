@@ -150,7 +150,7 @@
         <scale>1 1 1</scale>
         <link name='link'>
           <pose frame=''>-11.0171 -2.03334 0.049999 -2e-06 1e-06 0.000845</pose>
-          <velocity>0 0 0 0 -0 0</velocity>
+          <velocity>0.1 0 0 0 -0 0</velocity>
           <acceleration>0.94531 1.99621 -2.81488 -2.08226 1.03621 0.103757</acceleration>
           <wrench>75.6248 159.697 -225.191 0 -0 0</wrench>
         </link>
