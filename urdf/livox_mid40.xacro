@@ -1,7 +1,6 @@
 <?xml version="1.0"?>
 <robot xmlns:xacro="http://ros.org/wiki/xacro">
 
-    <xacro:property name="M_PI" value="3.14159" />
     <xacro:property name="laser_min_range" value="0.1" />
     <xacro:property name="laser_max_range" value="200.0" />
     <!-- 水平FOV，度为单位 -->

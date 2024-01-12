@@ -22,14 +22,14 @@
                             <horizontal>
                                 <samples>100</samples>
                                 <resolution>1</resolution>
-                                <min_angle>${-horizontal_fov/360.0*M_PI}</min_angle>
-                                <max_angle>${horizontal_fov/360.0*M_PI}</max_angle>
+                                <min_angle>${radians(-horizontal_fov/2.0)}</min_angle>
+                                <max_angle>${radians(horizontal_fov/2.0)}</max_angle>
                             </horizontal>
                             <vertical>
                                 <samples>50</samples>
                                 <resolution>1</resolution>
-                                <min_angle>${min_vertical_angle/180.0*M_PI}</min_angle>
-                                <max_angle>${max_vertical_angle/180.0*M_PI}</max_angle>
+                                <min_angle>${radians(min_vertical_angle)}</min_angle>
+                                <max_angle>${radians(max_vertical_angle)}</max_angle>
                             </vertical>
                         </scan>
                         <range>
